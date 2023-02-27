@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root
+{
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --blue-main: hsl(217, 54%, 11%);
+    --blue-card: hsl(216, 50%, 16%);
+    --blue-line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+
+}
+
+body
+{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    background-color: var(--blue-main);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container
+{
+    width: 300px;
+    background-color: var(--blue-card);
+    margin: 0 auto;
+    border-radius: 13px;
+    padding: 18px;
+}
+
+.card a
+{
+    text-decoration: none;
+}
+
+.main-img
+{
+    width: 100%;
+    border-radius: 13px;
+}
+
+.text h2
+{
+    font-weight: 600;
+    padding: 10px 0;
+    font-size: 1.5rem;
+}
+
+.text p
+{
+    color: var(--blue-line);
+    padding: 10px 0;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.text a
+{
+    color: var(--white);
+}
+
+.text ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    color: var(--blue-line);
+    font-size: 1rem;
+    padding: 10px 0;
+}
+
+.avatar
+{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 15px;
+
+}
+
+.avatar p
+{
+    font-weight: 300;
+}
+
+.eth
+{
+    color: var(--Cyan);
+}
+
+a:hover
+{
+    color: var(--Cyan);
+}
+
+.avatar-img
+{
+    width: 40px;
+    border: solid var(--white) 1px;
+    border-radius: 50%;
+    margin-right: 13px;
+}
+
+.icon
+{
+    position: relative;
+    top: .2em;
+    margin-right: 5px;
+}
+
+hr
+{
+    border-color: var(--blue-line);
+    margin-top:  .4em;
+}
